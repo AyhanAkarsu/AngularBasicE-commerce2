@@ -1,0 +1,111 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik"
+    },
+    {
+      "id": 2,
+      "name": "Giyim"
+    },
+    {
+      "id": 3,
+      "name": "Ev & Yaşam"
+    },
+    {
+      "id": 4,
+      "name": "Kitap"
+    },
+    {
+      "id": 5,
+      "name": "Spor"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "categoryName": "Elektronik",
+      "name": "Asus ROG Strix Scar 18",
+      "price": 100000,
+      "categoryId": 1,
+      "description": "İşletim Sistemi. No preinstalled OS. İşlemci. 13th Gen Intel® Core™ i9-13980HX Processor 2.2 GHz (36M Cache, up to 5.6 GHz, 24 cores: 8 P-cores and 16 E-cores) Ekran Kartı NVIDIA® GeForce RTX™ 4090 Laptop GPU. Ekran. ROG Nebula Display. Ram. 16GB DDR5-4800 SO-DIMM x 2. Depolama. I/O Bağlantı Noktaları. Klavye ve Dokunmatik Yüzey.",
+      "imageUrl": "https://gamizm.com/wp-content/uploads/Asus-ROG-Strix-SCAR-18-860x484.jpg"
+    },
+    {
+      "id": 102,
+      "categoryName": "Elektronik",
+      "name": "Iphone 15 pro max",
+      "price": 90000,
+      "categoryId": 1,
+      "description": "Ürün Tipi: Akıllı Telefon Renk (Üreticiye Göre): Siyah Titanium Üretici Garantisi: 2 Yıl Apple Türkiye Garantili İşletim Sistemi: iOS 17 İşlemci: 6 çekirdekli GPU’ya sahip A17 Pro çip Bellek Kapasitesi: 256 GB Arttırılabilir Hafıza: Hayır",
+      "imageUrl": "https://assets.hardwarezone.com/img/2023/02/iphone15pro-red.jpg"
+    },
+    {
+      "id": 103,
+      "categoryName": "Giyim",
+      "name": "Stan Smith",
+      "price": 3500,
+      "categoryId": 2,
+      "description": "Normal kalıp, Bağcıklı tasarım, Sentetik astar, Kauçuk dış taban, Vegan",
+      "imageUrl": "https://cdn03.ciceksepeti.com/cicek/kcm17929755-1/L/adidas-stan-smith-white-green-gunluk-ayakkabi-kcm17929755-1-afb1e828e95b4b789d2cd7d44d5f0755.jpg"
+    },
+    {
+      "id": 104,
+      "categoryName": "Elektronik",
+      "name": "Arzum Maxthon Mutfak Robotu",
+      "price": 4429,
+      "categoryId": 1,
+      "description": "Güç 1000 W, İşlem Haznesi 1,2 lt, Rendeleme/Dilimleme Var, Pulse Fonksiyonu Var, Sürahi Blender 1 lt, Hız Ayarı 2 Seviye, Aksesuarlar Kahve ve Baharat Öğütme, Hamur Yoğurma Aparatı",
+      "imageUrl": "https://witcdn.arzum.com.tr/ar1064-maxthon-mutfak-robotu-siyah-erpden-gelenler-arzum-ar1064-4916-15-B.png"
+    },
+    {
+      "id": 105,
+      "categoryName": "Giyim",
+      "name": "Tişört",
+      "price": 200,
+      "categoryId": 2,
+      "description": "Baskılı Kız/erkek Çocuk Tişört",
+      "imageUrl": "https://cdn.dsmcdn.com/ty408/product/media/images/20220425/0/97002600/455975942/1/1_org_zoom.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Karayip Korsanları- Gizemli Denizlerde",
+      "price": "200",
+      "categoryId": "4",
+      "description": "KÖTÜ ŞÖHRETLİ KAPTAN JACK SPARROW eskiden tanıdığı, nefes kesici ama tehlikeli bir korsan olan Angelica’yla karşılaşınca yanağına birkaç şamardan fazlasını yiyeceğini biliyor. Çok geçmeden ikili, kendilerini acımasız zombilerle dolup taşan Kraliçe Anne’in İntikamı adlı hayaletli gemide buluyorlar. Geminin kaptanı ise, gelmiş geçmiş en korkunç korsan, Karasakal! Efsanevi Gençlik Pınarı’nın peşinde korkunç bir serüvene atılan Jack’in şimdi güzel ama ölümcül denizkızlarıyla savaşması gerekiyor. Peki, kim dost, kim düşman? Kaptan Jack tuhaf med-cezire doğru yelken açarken kim ölecek, kim kalacak?",
+      "imageUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000364893-1.jpg"
+    }
+  ],
+  "users": [
+    {
+      "name": "Ayhan",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Akarsu",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Şengül",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Ace",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "Shanks",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "Ayhan",
+      "password": "12345",
+      "id": 6
+    }
+  ]
+}

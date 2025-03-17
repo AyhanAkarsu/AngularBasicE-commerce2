@@ -1,0 +1,8 @@
+<h3>Ürün ekle - Reactive</h3>
+<form class="form-group" [formGroup]="productAddForm" (ngSubmit)="add()">
+    <div>
+        <label for="">Ürün Adı</label>
+        <input type="text" name="name" id="name" formControlName="name" class="form-control">
+        <div *ngIf="productAddForm.get('name')?.hasError('required') && productAddForm.get('name')?.dirty" class="alert alert-danger">Ürün adı zorunludur.</div>
+    </div>
+</form>

@@ -1,0 +1,28 @@
+<div class="bg-dark rounded border border-2 border-danger p-3 mt-2">
+  <div class="bg-danger p-2 rounded d-flex justify-content-between align-items-center">
+    <h3 class="m-0">{{ title }}</h3>
+    <div *ngIf="products" class="ml-auto">
+      <form class="d-flex">
+        <input class="form-control" placeholder="Ürün ara" name="filterText" [(ngModel)]="filterText">
+      </form>
+      <small *ngIf="filterText" class="form-text text-muted">Şu anda aradığınız ürün <strong>{{filterText}}</strong></small>
+    </div>
+  </div>  
+  <div class="row row-cols-1 row-cols-md-3 g-3 mt-1">
+    <div class="col" *ngFor="let product of products | productSearch: filterText">
+      <div class="card border border-2 border-danger">
+        <div style="height: 200px; overflow: hidden;">
+          <img [src]="product.imageUrl" class="card-img-top bd-placeholder-img" alt="Card image cap" style="object-fit: cover; height: 100%;">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"><em>{{product.name}}</em></h5>
+          <h5 class="card-title"><em>{{product.price | currency:"₺ "}}</em></h5>
+          <div class="btn-group">
+            <button class="btn btn-sm btn-outline-danger" (click)="cardAded(product)">Sepete Ekle</button>
+            <button class="btn btn-sm btn-outline-danger">Ürün Detay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

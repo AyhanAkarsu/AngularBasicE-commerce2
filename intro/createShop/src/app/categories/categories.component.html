@@ -1,0 +1,8 @@
+<div class="bg-dark p-2 mt-2 rounded border border-2 border-danger">
+  <h4 class="bg-danger p-2 rounded">{{title}}</h4>
+  <ul class="list-group">
+      <li class="list-group-item border border-2 border-danger bg-primary allCategory" routerLink="/products">Tüm Katagoriler</li>
+      <li *ngFor="let category of categories; let i = index" class="list-group-item list-group-item-action border border-2 border-danger mt-1" 
+      [ngClass]="{'list-group-item-primary': i  === 0, 'list-group-item-secondary': i  === 1, 'list-group-item-danger': i   === 3, 'list-group-item-warning': i  === 4, 'list-group-item-info': i  === 5}" routerLink="/products/category/{{category.id}}" style="cursor: pointer;">{{category.name}}</li>
+  </ul>
+</div>
