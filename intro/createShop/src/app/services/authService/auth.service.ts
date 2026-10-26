@@ -1,12 +1,12 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, catchError, throwError } from 'rxjs';
-import { User } from 'src/app/auther/login/login';
+import { User } from 'src/app/auth/login/login';
 
 @Injectable({
   providedIn: 'root'
 })
-export class AutherService {
+export class AuthService {
 
   constructor(private http: HttpClient) { }
   path = "http://localhost:3000/users"

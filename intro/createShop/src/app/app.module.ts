@@ -9,10 +9,10 @@ import { ProductsComponent } from './products/products.component';
 import {HttpClientModule} from '@angular/common/http';
 import { ProductSearchPipe } from './products/product-search.pipe'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ProductAddForms1Component } from './products/product-add-forms1/product-add-forms1.component';
+import { ProductAddForm1Component } from './products/product-add-form1/product-add-form1.component';
 import { ProductAddForm2Component } from './products/product-add-form2/product-add-form2.component';
-import { RegisterComponent } from './auther/register/register.component';
-import { LoginComponent } from './auther/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { LoginComponent } from './auth/login/login.component';
 
 
 @NgModule({
@@ -22,7 +22,7 @@ import { LoginComponent } from './auther/login/login.component';
     CategoriesComponent,
     ProductsComponent,
     ProductSearchPipe,
-    ProductAddForms1Component,
+    ProductAddForm1Component,
     ProductAddForm2Component,
     RegisterComponent,
     LoginComponent

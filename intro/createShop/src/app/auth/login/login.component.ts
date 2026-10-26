@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AutherService } from 'src/app/services/autherService/auther.service';
+import { AuthService } from 'src/app/services/authService/auth.service';
 import * as alertifyjs from 'alertifyjs'
 import { User } from './login';
 import { NgForm } from '@angular/forms';
@@ -11,12 +11,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  constructor(private autherService: AutherService, private router: Router) {}
+  constructor(private authService: AuthService, private router: Router) {}
   model: User = new User()
   loggedIn:boolean = false
   
   login(form: NgForm) {
-    this.autherService.getLogin(this.model).subscribe(data => {
+    this.authService.getLogin(this.model).subscribe(data => {
         if (Array.isArray(data) && data.length !== 0) {
             if(data[0].password === this.model.password){
               this.router.navigate(["/"])
